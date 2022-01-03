@@ -5,6 +5,7 @@ https://github.com/ventoy/Ventoy/releases chọn như hình rồi tải xuống 
 ![image](https://user-images.githubusercontent.com/42485856/147914248-af43119d-e47f-459f-861a-17eddf48df97.png)
 
 2. giải nén thư mục ventoy vừa tải về và vào thư mục 
+Xem kỹ ổ đó dạng gì, sda, sdb, sdc
 ```
 cd /Downloads/ventoy-1.0.63-linux/ventoy-1.0.63 
 sudo ./Ventoy2Disk.sh -i /dev/sdb
@@ -15,7 +16,7 @@ y
 ```
 cd 
 sudo nautilus
-copy file clonezela.iso vào ổ đĩa
+copy file clonezela.iso trong thư mục dowload vào ổ đĩa ventoy vào ổ đĩa
 ```
 
 
