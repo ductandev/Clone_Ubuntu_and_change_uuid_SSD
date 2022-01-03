@@ -10,7 +10,9 @@ cd /Downloads/ventoy-1.0.63-linux/ventoy-1.0.63
 sudo ./Ventoy2Disk.sh -i /dev/sdb
 y
 y
-
+```
+3. tải clonezilla https://clonezilla.org/downloads/download.php?branch=stable chọn loại file iso và tải
+```
 cd 
 sudo nautilus
 copy file clonezela.iso vào ổ đĩa
