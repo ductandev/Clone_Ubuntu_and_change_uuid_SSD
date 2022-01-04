@@ -23,6 +23,7 @@ copy file clonezela.iso trong thư mục dowload vào ổ đĩa ventoy vào ổ 
 # Đổi UUID cho ổ cứng
 ```
 umount /dev/sdc5  
+sudo -s
 sudo e2fsck -f /dev/sdc5
 sudo tune2fs -U random /dev/sdc5
 ```
