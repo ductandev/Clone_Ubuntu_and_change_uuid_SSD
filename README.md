@@ -24,8 +24,8 @@ copy file clonezela.iso trong thư mục dowload vào ổ đĩa ventoy vào ổ 
 ```
 umount /dev/sdc5  
 sudo -s
-sudo e2fsck -f /dev/sdc5
-sudo tune2fs -U random /dev/sdc5
+sudo e2fsck -f /dev/sdb5
+sudo tune2fs -U random /dev/sdb5
 ```
 
 - lệnh trên để đổi UUID ổ cứng ---> sau đó rút ổ cứng ra và cắm vào lại, rồi vào ổ 31GB chọn vào /etc/fstab đổi UUID ---> sau đó tiếp tục vào rồi vào /boot/grub/grub.cfg đổi UUID là xong
