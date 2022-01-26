@@ -29,3 +29,8 @@ sudo tune2fs -U random /dev/sdb5
 ```
 
 - lệnh trên để đổi UUID ổ cứng ---> sau đó rút ổ cứng ra và cắm vào lại, rồi vào ổ 31GB chọn vào /etc/fstab đổi UUID ---> sau đó tiếp tục vào rồi vào /boot/grub/grub.cfg đổi UUID là xong
+
+# Đổi UUID theo ý muốn 
+```
+sudo tune2fs -U 27be74da-15d8-4bd4-97e9-2d3687411630 /dev/sdc5
+```
